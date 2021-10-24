@@ -1,0 +1,85 @@
+<div class="text-center"><img src="assets/img/contactanos.png" class="col-lg"> </div>
+<br>
+<br>
+<div class="container">
+    <table class="table table-striped table-hover bg-primary text-light">
+        <tr class="text-light">
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Telefono</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Eder</td>
+            <td>Melo</td>
+            <td>3003422755</td>
+            <td>efmelo9@gmail.com</td>
+        </tr>
+        <tr class="text-light">
+            <td>Jeiner</td>
+            <td>Rodelo</td>
+            <td>3207236520</td>
+            <td>jrodelob199516@gmail.com</td>
+        </tr>
+    </table>
+    <div class="row">
+        <div class="col-lg-6 col-sm-6">
+            <h1 class="text-primary">Acercate a nuestras oficinas</h1>
+            Siempre habra alguien dispuesto para ti, invitarte un cafe y por su puesto comer algo de pan!
+            <br>
+            <br>
+            <img class="img-fluid" src="assets/img/pan-de-muerto-chocolate.gif" height="315">
+        </div>
+        <div class="col-lg-6 col-sm-6">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.949973528257!2d-74.79129167938086!3d10.895208063244775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2718b610027%3A0xef84e711c82bb3e9!2zMTDCsDUzJzQ0LjAiTiA3NMKwNDcnMjYuNCJX!5e0!3m2!1ses!2sco!4v1632105358934!5m2!1ses!2sco"
+                width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <br>
+        <h1 class="text-primary text-center">TIENES PROBLEMAS? DEJANOS LLAMARTE!</h1>
+        <div class="col-lg-6 col-sm-6 border bg-primary">
+            <br>
+            <form id="miForm" autocomplete="off">
+                <label class="text-light fw-bold">Nombre</label> <br>
+                <input type="text" class="form-control" id="txtNombre"> <br>
+                <label class="text-light fw-bold">Apellido</label> <br>
+                <input type="text" class="form-control" id="txtApellido"> <br>
+                <label class="text-light fw-bold">Correo</label> <br>
+                <input type="text" class="form-control" id="txtCorreo"> <br>
+                <label class="text-light fw-bold">Telefono</label> <br>
+                <input type="text" class="form-control" id="txtTelefono"> <br>
+                <button type="button" id="btnenviar" class="btn btn-light text-primary fw-bold"
+                    onclick="procesar()">Enviar</button>
+                <button type="button" id="btneditar" class="btn btn-light text-primary fw-bold" disabled
+                    onclick="actualizarfila1()">Editar</button>
+                <br>
+
+            </form>
+        </div>
+        <div class="col-lg-6 col-sm-6 text-center">
+            <img src="assets/img/Contacto (1).png" height="450">
+        </div>
+        <div id="cuadro" style="display: none">
+            <br>
+    
+            <table class="table table-bordered border-light bg-primary" id="mitabla">
+              <tr class="text-light">
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Telefono</th>
+                <th>Opcion</th>
+  
+              </tr>
+    
+            </table>
+        </div>
+    </div>
+</div>
+<br>  
+<div class="bg-primary text-light text-center">
+  PANADERIA EXPRESS<br>
+  Para tener el gusto de ayudarte....<br>
+  <a class="text-light" href="Contactanos.html">Contactanos!</a>
+  </div>
